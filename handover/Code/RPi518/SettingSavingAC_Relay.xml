@@ -1,0 +1,38 @@
+<config>
+  <properties>
+    <property name="TYPE_RTU" value= "2"/>
+    <property name="NormalData Refresh Time Setting" value= "60000"/>
+
+    <property name="Double Server System" value= "true"/>
+    <property name="Auto-Sending Switch State" value= "true"/>
+    <property name="Device Error Reboot Enable" value= "true"/>
+    
+    <property name="Server-Address1" value= "172.25.186.73"/>
+    <property name="Server-Address2" value= "10.25.187.9"/>
+    <property name="Server-Address3" value= "172.25.186.74"/>
+
+    <property name="BE10-IP-Address" value= "192.168.55.253"/>
+	<property name="PV_SCPI_Socket_IP" value= "192.168.55.2"/>
+    <property name="Enable_Display_WS_Status" value= "false"/>
+
+    <property name="Enable_WiFiAutoSelect" value= "true"/>
+    <property name="WiFiRouter1st" value= "SBB_BIMG_Router-4"/>
+    <property name="WiFiRouter2nd" value= "SBB_BIMG_Router-2"/>
+    <property name="WiFiRouter3rd" value= "SBB_BIMG_Router-3"/>
+
+    <property name="Pi-System Element Name" value= "SG.CR11.BIMG.DC_AC_CVT_002_001"/> 
+    <property name="RTU_Name" value= "DC_AC_CVT_002_001"/> 
+    
+    <property name="Pi-System_URL" value= "https://172.25.186.70/piwebapi/"/>
+    <property name="Pi-System AC Branches Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQ8CBvQCjR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXEFDX0JSQU5DSA"/>
+    <property name="Pi-System DC Branches Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQHQpaxCjR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXERDX0JSQU5DSA"/>
+    <property name="Pi-System Switches Root_Element WebID"    value= "E03RtlcqyEokGCdohIi2-_uQ6P3LgSjR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXEFDX1NXSVRDSA"/>
+    <property name="Pi-System AC Source Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQxL_GqCrR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXEFDX1NPVVJDRQ"/>
+    <property name="Pi-System AC Load Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQyho9CSrR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXEFDX0xPQUQ"/>
+    <property name="Pi-System PV AC_DC Source Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQaXDZByvR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXERDX0FDX1BTXzAwOV8wMDE"/>
+    
+    <property name="RTU_UID" value= "9611466950198701"/>
+
+  </properties>
+  <tuples/>
+</config>

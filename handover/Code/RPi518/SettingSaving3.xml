@@ -1,0 +1,58 @@
+﻿<config>
+  <properties>
+    <property name="TYPE_RTU" value= "6"/>
+    <property name="NormalData Refresh Time Setting" value= "2000"/>
+    <property name="EnergyData Refresh Time Setting" value= "60000"/>
+
+    <property name="Double Server System" value= "true"/>
+    <property name="Server-Address1" value= "172.25.186.73"/>
+    <property name="Server-Address2" value= "10.25.187.9"/>
+    <property name="Server-Address3" value= "172.25.186.74"/>
+
+    <property name="BE10-IP-Address" value= "192.168.55.253"/>
+	<property name="PV_SCPI_Socket_IP" value= "192.168.55.2"/>
+	<property name="Enable_Display_WS_Status" value= "false"/>
+    
+    <property name="RTU_UID" value= "9611466950198001"/>
+
+<!--    <property name="serial.port" value= "COM8"/>-->
+    <property name="serial.port5" value= "COM15"/>
+    <property name="serial.port6" value= "COM3"/>
+    <property name="serial.port7" value= "COM2"/>
+    <property name="serial.port8" value= "COM1"/>
+        
+    <property name="TYPE6_RTU_Name" value= "DC_LOAD_006_001"/>
+    
+<!--     <property name="Pi-System_URL" value= "https://10.25.187.52/piwebapi/"/> -->
+<!--     <property name="Pi-System_URL" value= "https://172.25.186.63/piwebapi/"/> -->
+    <property name="Pi-System Element Name" value= "SG.CR11.BIMG.DC_LOAD_006_001"/> 
+    
+    <property name="Pi-System_URL" value= "https://172.25.186.70/piwebapi/"/>
+    <property name="Pi-System AC Branches Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQ8CBvQCjR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXEFDX0JSQU5DSA"/>
+    <property name="Pi-System DC Branches Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQHQpaxCjR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXERDX0JSQU5DSA"/>
+    <property name="Pi-System Switches Root_Element WebID"    value= "E03RtlcqyEokGCdohIi2-_uQ6P3LgSjR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXEFDX1NXSVRDSA"/>
+    <property name="Pi-System AC Source Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQxL_GqCrR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXEFDX1NPVVJDRQ"/>
+    <property name="Pi-System AC Load Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQyho9CSrR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXEFDX0xPQUQ"/>
+    <property name="Pi-System PV AC_DC Source Root_Element WebID" value= "E03RtlcqyEokGCdohIi2-_uQaXDZByvR5BGCY6A2n09rSwU0JCUElBRlNWUjFcQUZEQlxCSU1HXERDX0FDX1BTXzAwOV8wMDE"/>
+    
+    
+<!--TYPE_RTU=1: DC Meter  A brown TX line to RX pin; B blue RX line to TX pin; S yellow GND line GND pins (2 pin link together) -->
+<!--TYPE_RTU=3: AC Meter  Static IP= "10.25.188.132"; Mask="255.255.255.240"; Gateway="10.25.188.129" -->
+<!--cd /home/pi/NetBeansProjects/RPi913/dist
+sudo java �jar RPi913.jar-->
+
+<!--     <property name="RTU Name" value= "RTU-DC-Branch/001/001"/> -->
+<!--     <property name="RTU Name" value= "RTU-AC-Branch/001/001"/> -->
+<!--     <property name="RTU Name" value= "RTU-AC/DC-BranchSwitch/001/001"/> -->
+<!--     <property name="TYPE5_RTU Name" value= "RTU-DC/AC-CVT/001/001"/> -->
+<!--     <property name="TYPE6_RTU Name" value= "RTU-DC-Load/001/001"/> -->
+<!--     <property name="TYPE7_RTU Name" value= "RTU-AC-Load/001/001"/> -->
+<!--     <property name="TYPE8_RTU Name" value= "RTU-AC-PowerSource/001/001"/> -->
+<!--     <property name="TYPE9_RTU Name" value= "RTU-PV-AC/DC-PowerSource/001/001"/> -->
+    
+    
+<!--     <property name="NormalRefreshSetting5" value= "ByteBufferSize=100{{{12(FLOAT)}}MEASure:POWEr?\n{{16(FLOAT)}}MEASure:VOLTage?\n{{20(FLOAT)}}MEASure:CURRent?\n{{24(FLOAT)}}MEASure:FREQuency?\n"/> -->
+<!--     <property name="NormalRefreshSetting9" value= "ByteBufferSize=100{{{12(FLOAT)}}MEASure:POWEr?\n{{16(FLOAT)}}MEASure:VOLTage?\n{{20(FLOAT)}}MEASure:CURRent?\n{{24(FLOAT)}}MEASure:FREQuency?\n"/> -->
+  </properties>
+  <tuples/>
+</config>

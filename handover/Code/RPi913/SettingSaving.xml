@@ -1,0 +1,43 @@
+<config>
+  <properties>
+    <property name="TYPE_RTU" value= "8"/>
+    <property name="NormalData Refresh Time Setting" value= "2000"/>
+    <property name="EnergyData Refresh Time Setting" value= "60000"/>
+
+<!--    <property name="Server-Address2" value= "127.0.0.1"/> -->
+<!--    <property name="Server-Address1" value= "10.25.187.99"/> -->
+    <property name="Server-Address2" value= "10.25.187.98"/>
+    <property name="Server-Address1" value= "10.25.187.99"/>
+
+    <property name="PV_SCPI_Socket_IP" value= "127.0.0.1"/>
+<!--    <property name="Enable_Display_WS_Status" value= "true"/>-->
+    
+    <property name="RTU_UID" value= "9611466950198907"/>
+
+<!--    <property name="serial.port" value= "COM8"/>-->
+    <property name="serial.port5" value= "COM15"/>
+    <property name="serial.port6" value= "COM15"/>
+    <property name="serial.port7" value= "COM2"/>
+    <property name="serial.port8" value= "COM1"/>
+    
+    <property name="TYPE8_RTU_Name" value= "RTU_AC_PowerSource_001_001"/>
+<!--TYPE_RTU=1: DC Meter  A brown TX line to RX pin; B blue RX line to TX pin; S yellow GND line GND pins (2 pin link together) -->
+<!--TYPE_RTU=3: AC Meter  Static IP= "10.25.188.132"; Mask="255.255.255.240"; Gateway="10.25.188.129" -->
+<!--cd /home/pi/NetBeansProjects/RPi913/dist
+sudo java �jar RPi913.jar-->
+
+<!--     <property name="RTU Name" value= "RTU-DC-Branch/001/001"/> -->
+<!--     <property name="RTU Name" value= "RTU-AC-Branch/001/001"/> -->
+<!--     <property name="RTU Name" value= "RTU-AC/DC-BranchSwitch/001/001"/> -->
+<!--     <property name="TYPE5_RTU Name" value= "RTU-DC/AC-CVT/001/001"/> -->
+<!--     <property name="TYPE6_RTU Name" value= "RTU-DC-Load/001/001"/> -->
+<!--     <property name="TYPE7_RTU Name" value= "RTU-AC-Load/001/001"/> -->
+<!--     <property name="TYPE8_RTU Name" value= "RTU-AC-PowerSource/001/001"/> -->
+<!--     <property name="TYPE9_RTU Name" value= "RTU-PV-AC/DC-PowerSource/001/001"/> -->
+    
+    
+<!--     <property name="NormalRefreshSetting5" value= "ByteBufferSize=100{{{12(FLOAT)}}MEASure:POWEr?\n{{16(FLOAT)}}MEASure:VOLTage?\n{{20(FLOAT)}}MEASure:CURRent?\n{{24(FLOAT)}}MEASure:FREQuency?\n"/> -->
+<!--     <property name="NormalRefreshSetting9" value= "ByteBufferSize=100{{{12(FLOAT)}}MEASure:POWEr?\n{{16(FLOAT)}}MEASure:VOLTage?\n{{20(FLOAT)}}MEASure:CURRent?\n{{24(FLOAT)}}MEASure:FREQuency?\n"/> -->
+  </properties>
+  <tuples/>
+</config>
